@@ -1,0 +1,8 @@
+Primary Colors
+1. #f29f67
+2. #1e1e2c
+
+Supporting Colors
+#3b8ff3
+#34b1aa
+#E0b50F
