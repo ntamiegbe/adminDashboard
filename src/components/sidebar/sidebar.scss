@@ -8,11 +8,13 @@
         align-items: center;
         justify-content: center;
         height: 50px;
+        // background-color: whitesmoke;
 
         .logo {
             color: #f29f67;
             font-size: 20px;
-            font-weight: bold;
+            font-weight: 700;
+            text-transform: uppercase;
         }
     }
 
@@ -29,25 +31,31 @@
                 align-items: center;
                 padding: 5px;
                 cursor: pointer;
+                
+                // .icon {
+                //     color: #f29f67;
+                //     font-size: 18px;
+                // }
 
-                .icon {
-                    color: #f29f67;
-                    font-size: 18px;
+                span {
+                    font-size: 13px;
+                    font-weight: 500;
+                    margin-left: 8px;
                 }
-
+                
                 &:hover {
-                    background-color: #f29f67;
+                    background-color: #fcc6a2;
                     color: whitesmoke;
                     border-radius: 0 1rem 1rem 0;
                 }
             }
-
+            
             .title {
                 font-size: 11px;
                 font-weight: bold;
                 color: #8b8b8b;
                 margin-top: 15px;
-                margin-bottom: .5rem;
+                margin-bottom: 5px;
             }
         }
     }
