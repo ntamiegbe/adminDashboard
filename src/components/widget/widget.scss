@@ -33,14 +33,14 @@
         .percentage {
             display: flex;
             align-items: center;
-            font-size: 14px;
+            font-size: 10px;
 
             &.positive {
                 color: #34b1aa;
             }
 
             &.negative {
-                color: red;
+                color: #ff6868;
             }
         }
 
