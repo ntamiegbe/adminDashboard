@@ -1,0 +1,57 @@
+.datatable {
+    height: 500px;
+    padding: 20px;
+
+    .cellWithImg {
+        display: flex;
+        align-items: center;
+
+        .cellImg {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    }
+
+    .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active {
+            color: #34b1aa;
+            background-color: #d7f3f2;
+        }
+
+        &.pending {
+            color: #f29f67;
+            background-color: #fce9dc;
+        }
+        &.passive {
+            color: #000000;
+            background-color:#8b8b8b62;
+        }
+    }
+
+    .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .viewButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #3b8ff3;
+            border: 1px solid #3b8ff3;
+            cursor: pointer;
+        }
+
+        .deleteButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: #fc3455;
+            background-color: #f57d9b44;
+            cursor: pointer;
+        }
+    }
+}
