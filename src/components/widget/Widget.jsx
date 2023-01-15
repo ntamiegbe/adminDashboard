@@ -41,7 +41,7 @@ const Widget = ({ type }) => {
                 isMoney: true,
                 link: "View all earnings",
                 icon: <div className="icon"><MoneyOutlinedIcon sx={{ color: "#e0b50f", backgroundColor: "#fbefc1", padding: "5px", borderRadius: "5px" }} /></div>,
-                amount: 12000,
+                amount: 19500,
                 diff: <div className="percentage negative">
                     <ArrowDropDownIcon /> -1.17%
                 </div>

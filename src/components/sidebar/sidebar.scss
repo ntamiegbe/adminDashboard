@@ -8,7 +8,7 @@
         align-items: center;
         justify-content: center;
         height: 50px;
-        // background-color: whitesmoke;
+        // background-color: white;
 
         .logo {
             color: #f29f67;
@@ -31,7 +31,7 @@
                 align-items: center;
                 padding: 5px;
                 cursor: pointer;
-                
+
                 // .icon {
                 //     color: #f29f67;
                 //     font-size: 18px;
@@ -42,14 +42,14 @@
                     font-weight: 500;
                     margin-left: 8px;
                 }
-                
+
                 &:hover {
                     background-color: #fcc6a2;
-                    color: whitesmoke;
+                    color: white;
                     border-radius: 0 1rem 1rem 0;
                 }
             }
-            
+
             .title {
                 font-size: 11px;
                 font-weight: bold;
