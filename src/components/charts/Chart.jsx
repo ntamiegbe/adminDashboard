@@ -4,15 +4,15 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 const data = [
     {
         name: 'January',
-        Total: 144000,
+        Total: 394000,
     },
     {
         name: 'Febuary',
-        Total: 108000,
+        Total: 208000,
     },
     {
         name: 'March',
-        Total: 164000,
+        Total: 664000,
     },
     {
         name: 'April',
@@ -20,18 +20,18 @@ const data = [
     },
     {
         name: 'May',
-        Total: 104000,
+        Total: 304000,
     },
     {
         name: 'June',
-        Total: 144000,
+        Total: 344000,
     },
 ];
 
 const Chart = () => {
-    return (
+    return (    
         <div className='chart'>
-            <div className="title">Revenue (Last 6 Months)</div>
+            <div className="title">Profit (Last 6 Months)</div>
             <ResponsiveContainer width="100%" aspect={2 / 1}>
                 <AreaChart width={730} height={250} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>

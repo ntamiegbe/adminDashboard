@@ -18,8 +18,8 @@ const Widget = ({ type }) => {
                 link: "View all users",
                 icon: <div className="icon"><PersonOutlineOutlinedIcon sx={{ color: "#3b8ff3", backgroundColor: "#b3d3fa", padding: "5px", borderRadius: "5px" }} /></div>,
                 amount: 231,
-                diff: <div className="percentage positive">
-                    <ArrowDropUpIcon /> 6.34%
+                diff: <div className="percentage negative">
+                    <ArrowDropDownIcon /> -6.34%
                 </div>
             }
             break;
@@ -30,8 +30,8 @@ const Widget = ({ type }) => {
                 link: "View all orders",
                 icon: <div className="icon"><ShoppingCartOutlinedIcon sx={{ color: "#34b1aa", backgroundColor: "#9ce2de", padding: "5px", borderRadius: "5px" }} /></div>,
                 amount: 33,
-                diff: <div className="percentage negative">
-                    <ArrowDropDownIcon /> 3.19%
+                diff: <div className="percentage positive">
+                    <ArrowDropUpIcon /> 3.19%
                 </div>
             }
             break;
@@ -41,9 +41,9 @@ const Widget = ({ type }) => {
                 isMoney: true,
                 link: "View all earnings",
                 icon: <div className="icon"><MoneyOutlinedIcon sx={{ color: "#e0b50f", backgroundColor: "#fbefc1", padding: "5px", borderRadius: "5px" }} /></div>,
-                amount: 19500,
-                diff: <div className="percentage negative">
-                    <ArrowDropDownIcon /> -1.17%
+                amount: 1900000,
+                diff: <div className="percentage positive">
+                    <ArrowDropUpIcon /> 1.17%
                 </div>
             }
             break;
@@ -53,7 +53,7 @@ const Widget = ({ type }) => {
                 isMoney: true,
                 link: "View details",
                 icon: <div className="icon"><AccountBalanceWalletOutlinedIcon sx={{ color: "#663399", backgroundColor: "#b28cd9", padding: "5px", borderRadius: "5px" }} /></div>,
-                amount: 1450000,
+                amount: 3450000,
                 diff: <div className="percentage positive">
                     <ArrowDropUpIcon /> 1.61%
                 </div>
