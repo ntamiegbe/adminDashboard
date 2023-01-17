@@ -20,7 +20,7 @@ const Featured = () => {
         </div>
         <p className="title">Total sales for the day </p>
         <p className="amount">₦1,865,000</p>
-        <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="description">Lorem ipsum dolor sit amet consectetur adipisicxing elit.</p>
         <div className="summary">
           <div className="item">
             <div className="itemTitle">Target</div>
