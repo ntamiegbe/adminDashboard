@@ -3,6 +3,6 @@ Primary Colors
 2. #1e1e2c
 
 Supporting Colors
-#3b8ff3
-#34b1aa
-#E0b50F
+3. #3b8ff3
+4. #34b1aa
+5. #E0b50F

@@ -5,8 +5,12 @@ import Login from './pages/login/Login'
 import Single from './pages/single/Single'
 import List from './pages/list/List'
 import './style/dark.scss'
+import { useContext } from 'react'
+import { DarkModeContext } from './context/darkModeContext'
 
 function App() {
+
+  const { darkMode } = useContext(DarkModeContext)
 
   return (
     <div className="app dark">
@@ -26,8 +30,8 @@ function App() {
               <Route path='new' element={<New />} />
             </Route>
           </Route>
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
     </div >
   )
 }
